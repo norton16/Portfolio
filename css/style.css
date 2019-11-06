@@ -4,12 +4,7 @@ body {
 	height: auto;
 	user-select: none;
 	font-size: 16px;
-	letter-spacing: 0.04m;
-	/* background-image: url("../images/back.jpg");
-    background-position: fixed background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: bottom;
-    */
+	letter-spacing: 0.02em;
 }
 
 html {
@@ -111,8 +106,8 @@ a {
 
 .intro,
 .intro2 {
-	width: 50%;
-	height: auto;
+	width: 60%;
+	height: 80vh;
 	font-weight: 800;
 	color: #878787;
 	line-height: 170%;
@@ -121,7 +116,7 @@ a {
 	flex-flow: column;
 	justify-content: center;
 	text-align: left;
-	margin: 170px 0px 225px 0px;
+	/* margin: 0px 0px 225px 0px; */
 }
 
 .intro2 {
