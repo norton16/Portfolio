@@ -120,6 +120,10 @@ a {
 	margin: 150px 0px 200px 0px;
 }
 
+#mainintro{
+	flex-flow: row;
+}
+
 .intro2 {
 	width: 100%;
 	height: 80vh;
@@ -146,6 +150,11 @@ flex-wrap: wrap;
 	background: rgb(215, 229, 230);
 }
 
+#art{
+	width: 70px;
+	height: 70px;
+	margin: 25px;
+}
 .contacttile {
 	display: flex;
 	justify-content: center;
@@ -202,11 +211,6 @@ flex-wrap: wrap;
 	box-shadow: 5px 5px #878787;
 }
 
-
-/* .tile2:hover .overlay {
-	opacity: 1;
-} */
-
 .projects img {
 	width: 400px;
 	height: auto;
@@ -224,71 +228,6 @@ flex-wrap: wrap;
 	text-align: center;
 }
 
-.overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 100%;
-	width: 100%;
-	opacity: 0;
-	transition: .5s ease;
-	background-color: rgb(255, 255, 255);
-}
-
-#text,
-#text2,
-#text3,
-#question {
-	font-weight: 800;
-	margin: 30px;
-	text-align: center;
-	color: white;
-}
-
-#box {
-	background-color: rgb(231, 127, 127);
-	height: 100px;
-	width: 100px;
-	margin: 20px;
-	align-self: center;
-}
-
-#panel1,
-#panel2 {
-	padding: 5px;
-	text-align: center;
-	background-color: #e77f7f;
-	border: solid 1px white;
-	color: white;
-}
-
-#panel2 {
-	padding: 50px;
-	display: none;
-}
-
-#fade {
-	flex-flow: row;
-}
-
-#boxbutton,
-#box1 {
-	width: 100px;
-	height: 100px;
-}
-
-#boxbutton {
-	font-family: Century Gothic, sans-serif;
-	border-style: none;
-	cursor: pointer;
-}
-
-#box1 {
-	background-color: rgb(231, 127, 127);
-}
-
 @media only screen and (max-width: 600px) {
 	.head {
 		flex-flow: column;
@@ -302,5 +241,11 @@ flex-wrap: wrap;
 	}
 	.projectintro{
 		flex-flow: column;
+	}
+	#mainintro{
+		flex-flow: column;
+	}
+	#art{
+		margin: 0;
 	}
 }
