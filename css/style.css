@@ -138,6 +138,13 @@ flex-wrap: wrap;
 	width: 50%;
 }
 
+#project01{
+	background:#F1F4B0;
+}
+
+#project02{
+	background: rgb(215, 229, 230);
+}
 
 .contacttile {
 	display: flex;
