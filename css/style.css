@@ -230,7 +230,7 @@ flex-wrap: wrap;
 
 .tile{
 	border-radius: 2%;
-	border: 4px solid rgb(199, 176, 176);
+	/* border: 4px solid rgb(199, 176, 176); */
 	display: flex;
 	color: #878787;
 	width: 200px;
