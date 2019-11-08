@@ -125,7 +125,7 @@ a {
 	margin: 180px;
 	flex-flow: row;
 	justify-content: space-between;
-	width: 50%;
+	width: 55%;
 	text-align: left;
 }
 
@@ -133,7 +133,8 @@ h1, h2{
 	color: rgb(231, 127, 127);
 }
 
-p, h1, h2{
+p, h1, h2,
+.intro h3{
 	margin: 20px;
 }
 
