@@ -150,11 +150,10 @@ flex-wrap: wrap;
 	background: rgb(215, 229, 230);
 }
 
-#art{
-	width: 70px;
-	height: 70px;
-	margin: 25px;
+#project03{
+	background: rgb(196, 187, 199);
 }
+
 .contacttile {
 	display: flex;
 	justify-content: center;
@@ -245,14 +244,10 @@ flex-wrap: wrap;
 	#mainintro{
 		flex-flow: column;
 	}
-	#art{
-		margin: 0;
-		width: 50px;
-		height: 50px;
-	}
 	.intro,
 	.intro2,
-	.projectintro {
+	.projectintro,
+	.projectdiv {
 	width: 100%;
 	margin: 30px;
 }
