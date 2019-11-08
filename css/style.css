@@ -248,4 +248,10 @@ flex-wrap: wrap;
 	#art{
 		margin: 0;
 	}
+	.intro,
+	.intro2,
+	.projectintro {
+	width: 100%;
+	margin: 30px;
+}
 }
