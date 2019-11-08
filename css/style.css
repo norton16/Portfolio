@@ -106,6 +106,7 @@ a {
 
 .intro,
 .intro2,
+.intro3,
 .projectintro {
 	width: 60%;
 	height: auto;
@@ -120,8 +121,21 @@ a {
 	margin: 150px 0px 200px 0px;
 }
 
-#mainintro{
+.intro{
+	margin: 180px;
 	flex-flow: row;
+	justify-content: space-between;
+	width: 50%;
+	text-align: left;
+}
+
+.intro img{
+	flex: none;
+}
+
+.intro p,
+.intro h2{
+	margin: 30px;
 }
 
 .intro2 {
@@ -210,11 +224,6 @@ flex-wrap: wrap;
 	box-shadow: 5px 5px #878787;
 }
 
-.projects img {
-	width: 400px;
-	height: auto;
-}
-
 .text {
 	color: #878787;
 	font-size: 20px;
@@ -251,4 +260,11 @@ flex-wrap: wrap;
 	width: 100%;
 	margin: 30px;
 }
+	.intro .contacttile{
+		justify-content: left;
+	}
+
+	.intro{
+		margin: 100px 0px 100px 0px;
+	}
 }
