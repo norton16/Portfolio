@@ -151,8 +151,12 @@ p, h1, h2,
 	width: 50px;
 	height: 50px;
 }
-#logo:hover{
+/* #logo:hover{
 	transform: scale(1.05);
+} */
+
+#about{
+	font-size: 2.5em;
 }
 
 .projectintro{
@@ -230,7 +234,7 @@ flex-wrap: wrap;
 }
 
 .tile{
-	border-radius: 2%;
+	border-radius: 5%;
 	/* border: 4px solid rgb(199, 176, 176); */
 	display: flex;
 	color: #878787;
