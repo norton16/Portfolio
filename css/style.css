@@ -100,7 +100,7 @@ a {
 	animation-duration: 0.2s;
 }
 
-.introtile a:hover {
+.contacttile a:hover {
 	color: rgb(231, 127, 127);
 }
 
@@ -124,7 +124,7 @@ a {
 .intro{
 	margin: 180px;
 	flex-flow: row;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 	width: 55%;
 	text-align: left;
 }
