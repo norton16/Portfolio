@@ -23,7 +23,7 @@ html {
 }
 
 .head {
-	background-color: white;
+	/* background-color: white; */
 	width: 100%;
 	height: auto;
 	text-align: center;
@@ -79,6 +79,13 @@ a {
 	width: auto;
 }
 
+#introimg{
+	width: 250px;
+	height: 250px;
+	border: none;
+	border-radius: 5%;
+}
+
 .icons {
 	max-width: 30px;
 	max-height: 30px;
@@ -110,7 +117,7 @@ a {
 .projectintro {
 	width: 60%;
 	height: auto;
-	font-weight: 800;
+	font-weight: 500;
 	color: #878787;
 	line-height: 170%;
 	display: flex;
@@ -122,11 +129,26 @@ a {
 }
 
 .intro{
-	margin: 180px;
+	margin: 170px;
 	flex-flow: row;
 	/* justify-content: space-between; */
-	width: 55%;
+	width: 100vw;
 	text-align: left;
+	height: auto;
+}
+
+#introimg{
+	margin: 20px;
+	opacity: 0.85;
+}
+
+.innerintro{
+	display: flex;
+	flex-flow: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	/* align-items: center; */
+	height: auto;
 }
 
 h1, h2{
@@ -282,7 +304,7 @@ flex-wrap: wrap;
 	.projectintro{
 		flex-flow: column;
 	}
-	#mainintro{
+	#mainintro, .innerintro{
 		flex-flow: column;
 	}
 	.intro,
@@ -298,6 +320,10 @@ flex-wrap: wrap;
 	}
 
 	.intro{
-		margin: 100px 0px 100px 0px;
+		margin: 50px;
+	}
+	#introimg{
+		width: 100px;
+		height: 100px;
 	}
 }
