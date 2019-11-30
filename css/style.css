@@ -132,7 +132,7 @@ a {
 .intro{
 	margin: 170px;
 	flex-flow: row;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 	/* justify-content: space-between; */
 	width: 100vw;
 	text-align: left;
